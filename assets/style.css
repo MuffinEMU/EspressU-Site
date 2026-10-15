@@ -38,10 +38,10 @@ nav.main a{padding:8px 13px;border-radius:999px;text-decoration:none;color:var(-
 nav.main a:hover{background:var(--bg2);color:var(--fg)}
 nav.main a[aria-current]{background:var(--bg2);color:var(--fg);box-shadow:inset 0 -2px 0 var(--crema)}
 .tools{display:flex;gap:8px;align-items:center}
-.icon-btn{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--fg);display:grid;place-items:center;cursor:pointer}
+.icon-btn{width:40px;height:40px;padding:0;line-height:1;-webkit-appearance:none;appearance:none;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--fg);display:grid;place-items:center;cursor:pointer}
 .icon-btn:hover{border-color:var(--blue)}
 .burger{display:none}
-.get{display:inline-flex;align-items:center;padding:9px 16px;border-radius:12px;font-weight:600;font-size:15px;text-decoration:none;
+.get{display:inline-flex;align-items:center;justify-content:center;height:40px;padding:0 16px;line-height:1.2;border-radius:12px;font-weight:600;font-size:15px;text-decoration:none;
   background:linear-gradient(180deg,var(--crema2),var(--crema));color:var(--on)}
 .get:hover{filter:brightness(1.06)}
 
@@ -53,7 +53,7 @@ h1{font:800 clamp(38px,6.4vw,68px)/1.02 Fraunces,Georgia,serif;letter-spacing:-.
 h1 em{font-style:normal;color:var(--crema)}
 .lead{font-size:19px;color:var(--muted);max-width:34em;margin:0 0 26px}
 .cta{display:flex;gap:12px;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:14px;font-weight:600;text-decoration:none;border:1px solid var(--line);cursor:pointer;font:inherit;font-weight:600;color:inherit;background:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;text-align:center;gap:8px;min-height:50px;padding:0 22px;line-height:1.2;-webkit-appearance:none;appearance:none;border-radius:14px;font-weight:600;text-decoration:none;border:1px solid var(--line);cursor:pointer;font:inherit;font-weight:600;color:inherit;background:none}
 .btn.main{background:linear-gradient(180deg,var(--crema2),var(--crema));color:var(--on);border-color:transparent;box-shadow:0 10px 30px -12px var(--crema)}
 .btn.main:hover{filter:brightness(1.06)}
 .btn.alt{background:var(--card)}
@@ -66,7 +66,8 @@ h1 em{font-style:normal;color:var(--crema)}
 
 /* quick path */
 .quick{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 8px}
-.quick a{display:flex;gap:14px;align-items:center;padding:16px 18px;border:1px solid var(--line);border-radius:var(--radius);background:var(--card);text-decoration:none}
+.quick a{display:flex;gap:14px;align-items:center;padding:16px 18px;border:1px solid var(--line);border-radius:var(--radius);background:var(--card);text-decoration:none;transition:border-color .15s,transform .15s}
+.quick a:hover{border-color:var(--blue);transform:translateY(-2px)}
 .quick b{font-weight:600}
 .quick span span{display:block;color:var(--muted);font-size:14px}
 .quick .num{display:grid;color:var(--on)}
@@ -98,7 +99,7 @@ ol.steps li.done .t{text-decoration:line-through;text-decoration-color:var(--mut
 .steps .t{font-weight:600;display:block}
 .steps .d{color:var(--muted);font-size:15px}
 .steps .act{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;align-items:center;align-self:center}
-.mini{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:8px 16px;border-radius:10px;border:1px solid var(--line);background:var(--bg2);font-weight:600;font-size:14px;text-decoration:none;color:inherit;cursor:pointer;font-family:inherit}
+.mini{display:inline-flex;align-items:center;justify-content:center;text-align:center;min-height:40px;padding:0 16px;line-height:1.2;-webkit-appearance:none;appearance:none;border-radius:10px;border:1px solid var(--line);background:var(--bg2);font-weight:600;font-size:14px;text-decoration:none;color:inherit;cursor:pointer;font-family:inherit}
 .mini:hover{border-color:var(--blue)}
 .mini.dl{background:linear-gradient(180deg,var(--crema2),var(--crema));color:var(--on);border-color:transparent}
 .reset{background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;font:inherit;font-size:14px;padding:0}
