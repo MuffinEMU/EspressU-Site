@@ -20,3 +20,7 @@ Then open http://localhost:8765/.
 - The icon is EspressU's app icon (`assets/icon.png`).
 - Light and dark themes follow the visitor's device, with a toggle in the header.
 - The footer credits "Based on MuffinEMU by Void".
+
+## Licence
+
+GPL-3.0, with an attribution term under section 7(b): copies must keep the credit "Website designed and built by Void, creator of MuffinEMU, a Wii U emulator for iOS." See [LICENSE](LICENSE) and [ATTRIBUTION.md](ATTRIBUTION.md). The EspressU icon belongs to EspressU.

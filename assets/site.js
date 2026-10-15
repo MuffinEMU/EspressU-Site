@@ -1,3 +1,5 @@
+/* EspressU website. Copyright (c) 2026 MuffinEMU Development Team (Void).
+ * SPDX-License-Identifier: GPL-3.0-only. Additional terms (GPL-3.0 section 7) apply: see ATTRIBUTION.md. */
 (function(){
   var root=document.documentElement;
   function get(k){try{return localStorage.getItem(k)}catch(e){return null}}
