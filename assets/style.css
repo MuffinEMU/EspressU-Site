@@ -99,8 +99,8 @@ ol.steps li.done .t{text-decoration:line-through;text-decoration-color:var(--mut
 .chk:checked::after{content:"";width:8px;height:14px;border:solid #0d2514;border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px)}
 .steps .t{font-weight:600;display:block}
 .steps .d{color:var(--muted);font-size:15px}
-.steps .act{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
-.mini{padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:var(--bg2);font-weight:600;font-size:14px;text-decoration:none;color:inherit;cursor:pointer;font-family:inherit}
+.steps .act{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;align-items:center;align-self:center}
+.mini{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:8px 16px;border-radius:10px;border:1px solid var(--line);background:var(--bg2);font-weight:600;font-size:14px;text-decoration:none;color:inherit;cursor:pointer;font-family:inherit}
 .mini:hover{border-color:var(--blue)}
 .mini.dl{background:linear-gradient(180deg,var(--crema2),var(--crema));color:var(--on);border-color:transparent}
 .reset{background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;font:inherit;font-size:14px;padding:0}
@@ -139,7 +139,7 @@ footer a{color:var(--crema)}
   .quick{grid-template-columns:1fr}
   .community{grid-template-columns:1fr}
   ol.steps li{grid-template-columns:auto 1fr}
-  ol.steps .act{grid-column:1/-1;justify-content:flex-start}
+  ol.steps .act{grid-column:1/-1;justify-content:center}
 }
 
 /* inner pages */
