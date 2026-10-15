@@ -4,7 +4,7 @@ A six-page static website for [EspressU](https://github.com/EspressU/EspressU-Em
 
 Made by MuffinEMU. Content is taken from EspressU's README and app source.
 
-## Preview it
+## Preview it on github pages; at https://muffinemu.github.io/EspressU-Site/, or follow the instructions below: 
 
 ```
 python3 -m http.server 8765
