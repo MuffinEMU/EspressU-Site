@@ -4,7 +4,7 @@ A six-page static website for [EspressU](https://github.com/EspressU/EspressU-Em
 
 Designed and built by Void, creator of [MuffinEMU](https://github.com/MuffinEMU/Muffin-EMU), as a friendly contribution to EspressU. Content is taken from EspressU's README and app source.
 
-MuffinEMU: [website](https://muffinemu.github.io/MuffinEMU/) · [GitHub](https://github.com/MuffinEMU/Muffin-EMU) · [Discord](https://muffinemu.github.io/MuffinEMU/discord.html)
+MuffinEMU: [website](https://muffinemu.github.io/MuffinEMU/) · [GitHub](https://github.com/MuffinEMU/Muffin-EMU) · [Discord](https://muffinemu.github.io/MuffinEMU/discord)
 
 ## Preview it on github pages; at https://muffinemu.github.io/EspressU-Site/, or follow the instructions below: 
 
