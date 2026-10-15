@@ -2,7 +2,7 @@
 
 A six-page static website for [EspressU](https://github.com/EspressU/EspressU-Emu): home, features, setup, FAQ, community and about. No build step and no dependencies besides Google Fonts.
 
-Designed and built by Void, creator of [MuffinEMU](https://github.com/MuffinEMU/Muffin-EMU), as a gift for EspressU. Content is taken from EspressU's README and app source.
+Designed and built by Void, creator of [MuffinEMU](https://github.com/MuffinEMU/Muffin-EMU). Content is taken from EspressU's README and app source.
 
 MuffinEMU: [website](https://muffinemu.github.io/MuffinEMU/) · [GitHub](https://github.com/MuffinEMU/Muffin-EMU) · [Discord](https://muffinemu.github.io/MuffinEMU/discord.html)
 
